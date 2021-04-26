@@ -1,5 +1,5 @@
 ---
-title: Joel's Site
+title: Home
 ---
 
 ## Welcome to GitHub Pages
