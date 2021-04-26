@@ -1,6 +1,5 @@
 ---
 title: Joel's Site
-name: Joel's Great Site
 ---
 
 ## Welcome to GitHub Pages
