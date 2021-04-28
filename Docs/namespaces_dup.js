@@ -1,4 +1,4 @@
 var namespaces_dup =
 [
-    [ "std", "namespacestd.html", null ]
+    [ "std", "d8/dcc/namespacestd.html", null ]
 ];

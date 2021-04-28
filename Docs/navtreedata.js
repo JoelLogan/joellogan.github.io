@@ -23,7 +23,7 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "Crystal Engine", "index.html", [
-    [ "Description", "md__crystal_engine__r_e_a_d_m_e.html", null ],
+    [ "Description", "d7/d4d/md__crystal_engine__r_e_a_d_m_e.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -52,8 +52,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_asset_8hpp.html",
-"pages.html"
+"annotated.html",
+"dir_c003b5cf20235f6fd75fc8e0dd443bd1.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
