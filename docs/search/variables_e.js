@@ -1,13 +1,10 @@
 var searchData=
 [
-  ['sampler_435',['sampler',['../class_image_manager.html#af3d0898810432a7dfb9ab07c58ce3ca9',1,'ImageManager']]],
-  ['scale_436',['scale',['../class_asset.html#aa814e9581c03d5f2467ac3fc542ec976',1,'Asset']]],
-  ['settings_437',['settings',['../class_open_g_l_render_engine.html#a6cbe6caeeb8b489d82ecc6be41c96f00',1,'OpenGLRenderEngine::settings()'],['../class_camera.html#a2471be268a066b6f9fead57d42c1f82a',1,'Camera::settings()'],['../class_vulkan_graphics_engine_link.html#a1e692fccecf505957ea64c4d30f197c4',1,'VulkanGraphicsEngineLink::settings()'],['../class_vulkan_render_engine.html#ae17c190d5ba0238e881fda8c60828e8a',1,'VulkanRenderEngine::settings()']]],
-  ['shaderbindingtables_438',['shaderBindingTables',['../class_vulkan_render_engine_ray_tracer.html#a6a1e191716232e459e82753cd94bd23d',1,'VulkanRenderEngineRayTracer']]],
-  ['shaderdata_439',['shaderData',['../class_asset.html#a0a61ae979542978e72987325b53f6a43',1,'Asset']]],
-  ['shadergroups_440',['shaderGroups',['../class_vulkan_render_engine_ray_tracer.html#a207fff56a2935d1c99bbd032215f6f26',1,'VulkanRenderEngineRayTracer']]],
-  ['shaderstages_441',['shaderStages',['../struct_descriptor_set_manager_create_info.html#a9c8b2c016ade4c545efe0c48c4975535',1,'DescriptorSetManagerCreateInfo']]],
-  ['strideddeviceaddressregion_442',['stridedDeviceAddressRegion',['../class_acceleration_structure_manager.html#ada3d5aff96417a9844795be4e90d16ef',1,'AccelerationStructureManager::stridedDeviceAddressRegion()'],['../class_shader_binding_table_manager.html#a81c8b16765d78bab59913fb8c9aaaa6c',1,'ShaderBindingTableManager::stridedDeviceAddressRegion()']]],
-  ['swapchain_443',['swapchain',['../class_vulkan_graphics_engine_link.html#a33082671c0a7ec4c3a98d071cffe36bc',1,'VulkanGraphicsEngineLink::swapchain()'],['../class_vulkan_render_engine.html#a97a55300a4e79ffe77472bfc808532b4',1,'VulkanRenderEngine::swapchain()']]],
-  ['swapchainimageviews_444',['swapchainImageViews',['../class_vulkan_graphics_engine_link.html#a349c9e0def6977c0a2b6639d7e69091e',1,'VulkanGraphicsEngineLink']]]
+  ['texcoord_437',['texCoord',['../struct_vertex.html#a8214ff52fee03a5524ce58c3810a1be9',1,'Vertex']]],
+  ['textureimages_438',['textureImages',['../class_asset.html#a45299feec5e866e3caf7de6226134a29',1,'Asset']]],
+  ['textures_439',['textures',['../class_asset.html#a6b62849ac3d1869ebe95a3dc9dfdd713',1,'Asset']]],
+  ['toplevelaccelerationstructure_440',['topLevelAccelerationStructure',['../class_vulkan_render_engine_ray_tracer.html#aef5a45a213ba30a6a305a725c0458796',1,'VulkanRenderEngineRayTracer']]],
+  ['transformationbuffer_441',['transformationBuffer',['../class_asset.html#a09bb9bd0fc85f03e9f40ed5ccac0635b',1,'Asset']]],
+  ['transformationmatrix_442',['transformationMatrix',['../class_asset.html#aa73168d68b87bfbf0dbf56d3d55ea748',1,'Asset']]],
+  ['trianglecount_443',['triangleCount',['../class_asset.html#a51396feed9f2b444660b71f299e7da47',1,'Asset']]]
 ];

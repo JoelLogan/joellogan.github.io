@@ -1,17 +1,13 @@
 var searchData=
 [
-  ['r_421',['r',['../class_sphere_body.html#aa80e829d127531e89b37f72a6f8abc15',1,'SphereBody']]],
-  ['refreshrate_422',['refreshRate',['../class_open_g_l_settings.html#ae4902d8e41e1c0129f73156606e2d536',1,'OpenGLSettings::refreshRate()'],['../class_vulkan_settings.html#afa03019468f90b21b72a21fcaaa5a16f',1,'VulkanSettings::refreshRate()']]],
-  ['render_423',['render',['../class_asset.html#afe985147ba5aeae5af7df865353b98b3',1,'Asset']]],
-  ['renderdistance_424',['renderDistance',['../class_open_g_l_settings.html#abad70c94a427a0cf63e8977d2ff53cbb',1,'OpenGLSettings::renderDistance()'],['../class_vulkan_settings.html#a33ac2e8703ed036c99e337b531e0658b',1,'VulkanSettings::renderDistance()']]],
-  ['renderenginelink_425',['renderEngineLink',['../class_vulkan_render_engine.html#a0b36fec6cc0057b7559b9fa8d90cdb52',1,'VulkanRenderEngine']]],
-  ['renderfinishedsemaphores_426',['renderFinishedSemaphores',['../class_vulkan_render_engine.html#a548f9f718ac33b550de115e8b8f895e7',1,'VulkanRenderEngine']]],
-  ['renderpass_427',['renderPass',['../class_render_pass_manager.html#ac62796cc68e10b7ef8acdb6052103454',1,'RenderPassManager']]],
-  ['renderpassmanager_428',['renderPassManager',['../class_vulkan_render_engine.html#a427a59b2d3ebe0ac39078bce9feb0e3a',1,'VulkanRenderEngine']]],
-  ['requiredvulkanversion_429',['requiredVulkanVersion',['../class_vulkan_settings.html#a6b12c93dc7393449e38749d509abf7bb',1,'VulkanSettings']]],
-  ['resolution_430',['resolution',['../class_open_g_l_settings.html#a5f03fea1306358ce8cdd5a54a3b4d261',1,'OpenGLSettings::resolution()'],['../class_vulkan_settings.html#a9925d6b87d5099844a8513a379563423',1,'VulkanSettings::resolution()']]],
-  ['right_431',['right',['../class_camera.html#aebffcc6289dd99df7554b18d00a81161',1,'Camera']]],
-  ['rot_432',['rot',['../class_rigid_body.html#a3bf8253d7dbfbe8a4201570d6ddb405e',1,'RigidBody']]],
-  ['rotation_433',['rotation',['../class_asset.html#a58a06a71345e2efc187e460ccce820d6',1,'Asset']]],
-  ['rotv_434',['rotV',['../class_rigid_body.html#a6cf81bd58414d7fce058866e4fc4eed1',1,'RigidBody']]]
+  ['sampler_427',['sampler',['../class_image_manager.html#af3d0898810432a7dfb9ab07c58ce3ca9',1,'ImageManager']]],
+  ['scale_428',['scale',['../class_asset.html#aa814e9581c03d5f2467ac3fc542ec976',1,'Asset']]],
+  ['settings_429',['settings',['../class_open_g_l_render_engine.html#a6cbe6caeeb8b489d82ecc6be41c96f00',1,'OpenGLRenderEngine::settings()'],['../class_camera.html#a2471be268a066b6f9fead57d42c1f82a',1,'Camera::settings()'],['../class_vulkan_graphics_engine_link.html#a1e692fccecf505957ea64c4d30f197c4',1,'VulkanGraphicsEngineLink::settings()'],['../class_vulkan_render_engine.html#ae17c190d5ba0238e881fda8c60828e8a',1,'VulkanRenderEngine::settings()']]],
+  ['shaderbindingtables_430',['shaderBindingTables',['../class_vulkan_render_engine_ray_tracer.html#a6a1e191716232e459e82753cd94bd23d',1,'VulkanRenderEngineRayTracer']]],
+  ['shaderdata_431',['shaderData',['../class_asset.html#a0a61ae979542978e72987325b53f6a43',1,'Asset']]],
+  ['shadergroups_432',['shaderGroups',['../class_vulkan_render_engine_ray_tracer.html#a207fff56a2935d1c99bbd032215f6f26',1,'VulkanRenderEngineRayTracer']]],
+  ['shaderstages_433',['shaderStages',['../struct_descriptor_set_manager_create_info.html#a9c8b2c016ade4c545efe0c48c4975535',1,'DescriptorSetManagerCreateInfo']]],
+  ['strideddeviceaddressregion_434',['stridedDeviceAddressRegion',['../class_acceleration_structure_manager.html#ada3d5aff96417a9844795be4e90d16ef',1,'AccelerationStructureManager::stridedDeviceAddressRegion()'],['../class_shader_binding_table_manager.html#a81c8b16765d78bab59913fb8c9aaaa6c',1,'ShaderBindingTableManager::stridedDeviceAddressRegion()']]],
+  ['swapchain_435',['swapchain',['../class_vulkan_graphics_engine_link.html#a33082671c0a7ec4c3a98d071cffe36bc',1,'VulkanGraphicsEngineLink::swapchain()'],['../class_vulkan_render_engine.html#a97a55300a4e79ffe77472bfc808532b4',1,'VulkanRenderEngine::swapchain()']]],
+  ['swapchainimageviews_436',['swapchainImageViews',['../class_vulkan_graphics_engine_link.html#a349c9e0def6977c0a2b6639d7e69091e',1,'VulkanGraphicsEngineLink']]]
 ];

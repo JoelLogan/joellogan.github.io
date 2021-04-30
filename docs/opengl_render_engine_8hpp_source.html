@@ -184,12 +184,12 @@ $(document).ready(function(){initNavTree('opengl_render_engine_8hpp_source.html'
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        GLint Result = GL_FALSE;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordtype">int</span> InfoLogLength{0};</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0; i &lt; paths.size(); i++) {</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            std::ifstream <a class="code" href="namespacedownload__models.html#a232d29599c5fa1b308eeb14f8a3f7fbe">file</a>(paths[i], std::ios::in);</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <span class="keywordflow">if</span> (!<a class="code" href="namespacedownload__models.html#a232d29599c5fa1b308eeb14f8a3f7fbe">file</a>.is_open()) { <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;failed to load shader: &quot;</span> + paths[i]); }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            std::ifstream file(paths[i], std::ios::in);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <span class="keywordflow">if</span> (!file.is_open()) { <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;failed to load shader: &quot;</span> + paths[i]); }</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            std::stringstream stringStream;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            stringStream &lt;&lt; <a class="code" href="namespacedownload__models.html#a232d29599c5fa1b308eeb14f8a3f7fbe">file</a>.rdbuf();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            stringStream &lt;&lt; file.rdbuf();</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            std::string shaderCode = stringStream.str();</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <a class="code" href="namespacedownload__models.html#a232d29599c5fa1b308eeb14f8a3f7fbe">file</a>.close();</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            file.close();</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <span class="keywordtype">char</span> <span class="keyword">const</span> *sourcePointer = shaderCode.c_str();</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            glShaderSource(shaderIDs[i], 1, &amp;sourcePointer, <span class="keyword">nullptr</span>);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            glCompileShader(shaderIDs[i]);</div>
@@ -232,7 +232,6 @@ $(document).ready(function(){initNavTree('opengl_render_engine_8hpp_source.html'
 <div class="ttc" id="aclass_open_g_l_settings_html_a5f03fea1306358ce8cdd5a54a3b4d261"><div class="ttname"><a href="class_open_g_l_settings.html#a5f03fea1306358ce8cdd5a54a3b4d261">OpenGLSettings::resolution</a></div><div class="ttdeci">std::array&lt; int, 2 &gt; resolution</div><div class="ttdef"><b>Definition:</b> openglSettings.hpp:30</div></div>
 <div class="ttc" id="aclass_open_g_l_render_engine_html_a8b2f108383c55e08fe532e169550cf73"><div class="ttname"><a href="class_open_g_l_render_engine.html#a8b2f108383c55e08fe532e169550cf73">OpenGLRenderEngine::~OpenGLRenderEngine</a></div><div class="ttdeci">~OpenGLRenderEngine()</div><div class="ttdef"><b>Definition:</b> openglRenderEngine.hpp:64</div></div>
 <div class="ttc" id="aclass_open_g_l_render_engine_html_a6cbe6caeeb8b489d82ecc6be41c96f00"><div class="ttname"><a href="class_open_g_l_render_engine.html#a6cbe6caeeb8b489d82ecc6be41c96f00">OpenGLRenderEngine::settings</a></div><div class="ttdeci">OpenGLSettings settings</div><div class="ttdef"><b>Definition:</b> openglRenderEngine.hpp:18</div></div>
-<div class="ttc" id="anamespacedownload__models_html_a232d29599c5fa1b308eeb14f8a3f7fbe"><div class="ttname"><a href="namespacedownload__models.html#a232d29599c5fa1b308eeb14f8a3f7fbe">download_models.file</a></div><div class="ttdeci">file</div><div class="ttdef"><b>Definition:</b> download_models.py:14</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

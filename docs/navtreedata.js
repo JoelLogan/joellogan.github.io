@@ -24,10 +24,6 @@ var NAVTREE =
 [
   [ "Crystal Engine", "index.html", [
     [ "Description", "md__crystal_engine__r_e_a_d_m_e.html", null ],
-    [ "Namespace Members", "namespacemembers.html", [
-      [ "All", "namespacemembers.html", null ],
-      [ "Variables", "namespacemembers_vars.html", null ]
-    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

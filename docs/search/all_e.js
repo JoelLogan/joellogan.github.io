@@ -1,4 +1,30 @@
 var searchData=
 [
-  ['quiet_135',['quiet',['../namespacedownload__models.html#a9a5dd73f96bfce03544cd009413e6b26',1,'download_models']]]
+  ['r_132',['r',['../class_sphere_body.html#aa80e829d127531e89b37f72a6f8abc15',1,'SphereBody']]],
+  ['rasterizationpipelinemanager_133',['RasterizationPipelineManager',['../class_rasterization_pipeline_manager.html',1,'']]],
+  ['rasterizationpipelinemanager_2ehpp_134',['rasterizationPipelineManager.hpp',['../rasterization_pipeline_manager_8hpp.html',1,'']]],
+  ['raytracingpipelinemanager_135',['RayTracingPipelineManager',['../class_ray_tracing_pipeline_manager.html',1,'']]],
+  ['raytracingpipelinemanager_2ehpp_136',['rayTracingPipelineManager.hpp',['../ray_tracing_pipeline_manager_8hpp.html',1,'']]],
+  ['readme_2emd_137',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['recordcommandbuffer_138',['recordCommandBuffer',['../class_command_buffer_manager.html#a3dc8751b6a06810cdd21b5dc40cdcaf7',1,'CommandBufferManager']]],
+  ['recordcommandbuffers_139',['recordCommandBuffers',['../class_command_buffer_manager.html#a38ab3654646c95793f90c3363265afc5',1,'CommandBufferManager']]],
+  ['recreateframebuffers_140',['recreateFramebuffers',['../class_render_pass_manager.html#aafb79ec4ae6c7ad4ffc6afd25bd763e3',1,'RenderPassManager']]],
+  ['refreshrate_141',['refreshRate',['../class_open_g_l_settings.html#ae4902d8e41e1c0129f73156606e2d536',1,'OpenGLSettings::refreshRate()'],['../class_vulkan_settings.html#afa03019468f90b21b72a21fcaaa5a16f',1,'VulkanSettings::refreshRate()']]],
+  ['reloadasset_142',['reloadAsset',['../class_asset.html#a0ff33e09473105930fbe4cf55596983c',1,'Asset']]],
+  ['render_143',['render',['../class_asset.html#afe985147ba5aeae5af7df865353b98b3',1,'Asset']]],
+  ['renderdistance_144',['renderDistance',['../class_open_g_l_settings.html#abad70c94a427a0cf63e8977d2ff53cbb',1,'OpenGLSettings::renderDistance()'],['../class_vulkan_settings.html#a33ac2e8703ed036c99e337b531e0658b',1,'VulkanSettings::renderDistance()']]],
+  ['renderenginelink_145',['renderEngineLink',['../class_vulkan_render_engine.html#a0b36fec6cc0057b7559b9fa8d90cdb52',1,'VulkanRenderEngine']]],
+  ['renderfinishedsemaphores_146',['renderFinishedSemaphores',['../class_vulkan_render_engine.html#a548f9f718ac33b550de115e8b8f895e7',1,'VulkanRenderEngine']]],
+  ['renderpass_147',['renderPass',['../class_render_pass_manager.html#ac62796cc68e10b7ef8acdb6052103454',1,'RenderPassManager']]],
+  ['renderpassmanager_148',['RenderPassManager',['../class_render_pass_manager.html',1,'RenderPassManager'],['../class_vulkan_render_engine.html#a427a59b2d3ebe0ac39078bce9feb0e3a',1,'VulkanRenderEngine::renderPassManager()']]],
+  ['renderpassmanager_2ehpp_149',['renderPassManager.hpp',['../render_pass_manager_8hpp.html',1,'']]],
+  ['requiredvulkanversion_150',['requiredVulkanVersion',['../class_vulkan_settings.html#a6b12c93dc7393449e38749d509abf7bb',1,'VulkanSettings']]],
+  ['resetcommandbuffer_151',['resetCommandBuffer',['../class_command_buffer_manager.html#a998f2e4ab4bd75b071adaed0491c0066',1,'CommandBufferManager']]],
+  ['resetcommandbuffers_152',['resetCommandBuffers',['../class_command_buffer_manager.html#a0e845a662cfbc1f55b7173616625fbeb',1,'CommandBufferManager']]],
+  ['resolution_153',['resolution',['../class_open_g_l_settings.html#a5f03fea1306358ce8cdd5a54a3b4d261',1,'OpenGLSettings::resolution()'],['../class_vulkan_settings.html#a9925d6b87d5099844a8513a379563423',1,'VulkanSettings::resolution()']]],
+  ['right_154',['right',['../class_camera.html#aebffcc6289dd99df7554b18d00a81161',1,'Camera']]],
+  ['rigidbody_155',['RigidBody',['../class_rigid_body.html',1,'RigidBody'],['../class_rigid_body.html#ae45e8330d3f0962963f28bc50306af95',1,'RigidBody::RigidBody(float x, float y, float z, float m)'],['../class_rigid_body.html#abe773e362c2191b328155af1fd547610',1,'RigidBody::RigidBody()=default']]],
+  ['rot_156',['rot',['../class_rigid_body.html#a3bf8253d7dbfbe8a4201570d6ddb405e',1,'RigidBody']]],
+  ['rotation_157',['rotation',['../class_asset.html#a58a06a71345e2efc187e460ccce820d6',1,'Asset']]],
+  ['rotv_158',['rotV',['../class_rigid_body.html#a6cf81bd58414d7fce058866e4fc4eed1',1,'RigidBody']]]
 ];
