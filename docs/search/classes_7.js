@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['renderpassmanager_192',['RenderPassManager',['../class_render_pass_manager.html',1,'']]],
-  ['rigidbody_193',['RigidBody',['../class_rigid_body.html',1,'']]]
+  ['settings_191',['Settings',['../class_settings.html',1,'']]],
+  ['spherebody_192',['SphereBody',['../class_sphere_body.html',1,'']]]
 ];

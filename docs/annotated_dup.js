@@ -1,6 +1,5 @@
 var annotated_dup =
 [
-    [ "std", "namespacestd.html", "namespacestd" ],
     [ "Asset", "class_asset.html", "class_asset" ],
     [ "BufferManager", "class_buffer_manager.html", "class_buffer_manager" ],
     [ "Camera", "class_camera.html", "class_camera" ],

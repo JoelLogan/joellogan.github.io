@@ -4,7 +4,6 @@ var hierarchy =
     [ "BufferManager", "class_buffer_manager.html", null ],
     [ "Camera", "class_camera.html", null ],
     [ "CommandBufferManager", "class_command_buffer_manager.html", null ],
-    [ "std::hash< Vertex >", "structstd_1_1hash_3_01_vertex_01_4.html", null ],
     [ "ImageManager", "class_image_manager.html", null ],
     [ "OpenGLRenderEngine", "class_open_g_l_render_engine.html", null ],
     [ "Particle", "class_particle.html", [

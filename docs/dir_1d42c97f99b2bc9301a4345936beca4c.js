@@ -19,8 +19,7 @@ var dir_1d42c97f99b2bc9301a4345936beca4c =
       [ "RenderPassManager", "class_render_pass_manager.html", "class_render_pass_manager" ]
     ] ],
     [ "Vertex.hpp", "_vertex_8hpp.html", [
-      [ "Vertex", "struct_vertex.html", "struct_vertex" ],
-      [ "hash< Vertex >", "structstd_1_1hash_3_01_vertex_01_4.html", "structstd_1_1hash_3_01_vertex_01_4" ]
+      [ "Vertex", "struct_vertex.html", "struct_vertex" ]
     ] ],
     [ "VulkanGraphicsEngineLink.hpp", "_vulkan_graphics_engine_link_8hpp.html", [
       [ "VulkanGraphicsEngineLink", "class_vulkan_graphics_engine_link.html", "class_vulkan_graphics_engine_link" ]
