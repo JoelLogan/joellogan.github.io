@@ -1,4 +1,5 @@
 <map id="VulkanGraphicsEngineLink" name="VulkanGraphicsEngineLink">
-<area shape="rect" id="node1" title=" " alt="" coords="5,95,200,121"/>
-<area shape="rect" id="node2" href="$class_settings.html" title=" " alt="" coords="65,5,140,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="59,109,253,136"/>
+<area shape="rect" id="node2" href="$class_vulkan_settings.html" title=" " alt="" coords="5,13,125,39"/>
+<area shape="rect" id="node3" href="$struct_vulkan_graphics_engine_link_1_1_physical_device_info.html" title=" " alt="" coords="149,5,344,47"/>
 </map>

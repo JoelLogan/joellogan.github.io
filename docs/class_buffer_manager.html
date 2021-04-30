@@ -97,13 +97,35 @@ $(document).ready(function(){initNavTree('class_buffer_manager.html',''); initRe
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_buffer_manager-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">BufferManager Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_buffer_manager_8hpp_source.html">BufferManager.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="buffer_manager_8hpp_source.html">bufferManager.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for BufferManager:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_buffer_manager__inherit__graph.png" border="0" usemap="#_buffer_manager_inherit__map" alt="Inheritance graph"/></div>
+<map name="_buffer_manager_inherit__map" id="_buffer_manager_inherit__map">
+<area shape="rect" title=" " alt="" coords="174,5,293,32"/>
+<area shape="rect" href="class_acceleration_structure_manager.html" title=" " alt="" coords="5,80,224,107"/>
+<area shape="rect" href="class_shader_binding_table_manager.html" title=" " alt="" coords="249,80,455,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for BufferManager:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_buffer_manager__coll__graph.png" border="0" usemap="#_buffer_manager_coll__map" alt="Collaboration graph"/></div>
+<map name="_buffer_manager_coll__map" id="_buffer_manager_coll__map">
+<area shape="rect" title=" " alt="" coords="97,199,215,225"/>
+<area shape="rect" href="class_vulkan_graphics_engine_link.html" title=" " alt="" coords="59,109,253,136"/>
+<area shape="rect" href="class_vulkan_settings.html" title=" " alt="" coords="5,13,125,39"/>
+<area shape="rect" href="struct_vulkan_graphics_engine_link_1_1_physical_device_info.html" title=" " alt="" coords="149,5,344,47"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -111,8 +133,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af1ea1458c19055eeb6d22e771934ac67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0aa76b46bc71d2c3ab1fcabf0cb19bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buffer_manager.html#aa0aa76b46bc71d2c3ab1fcabf0cb19bf">setEngineLink</a> (<a class="el" href="class_vulkan_graphics_engine_link.html">VulkanGraphicsEngineLink</a> *engineLink)</td></tr>
 <tr class="separator:aa0aa76b46bc71d2c3ab1fcabf0cb19bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcd89d83c5f9dc4e78f18d38b2e46839"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buffer_manager.html#afcd89d83c5f9dc4e78f18d38b2e46839">create</a> (VkDeviceSize size, VkBufferUsageFlags usage, VmaMemoryUsage allocationUsage)</td></tr>
-<tr class="separator:afcd89d83c5f9dc4e78f18d38b2e46839"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5d45ea925e91e40ad3d98b577c6b972"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buffer_manager.html#aa5d45ea925e91e40ad3d98b577c6b972">create</a> (VkDeviceSize size, VkBufferUsageFlags usage, VmaMemoryUsage allocationUsage)</td></tr>
+<tr class="separator:aa5d45ea925e91e40ad3d98b577c6b972"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab701f827d6c270a1cf1c2e0f6572d2c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buffer_manager.html#ab701f827d6c270a1cf1c2e0f6572d2c3">toImage</a> (VkImage image, uint32_t width, uint32_t height) const</td></tr>
 <tr class="separator:ab701f827d6c270a1cf1c2e0f6572d2c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -124,12 +146,21 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aeb70904534529996cbb47df4682e1acd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb3c42b0b9cb49b6099d4a948c43860f"><td class="memItemLeft" align="right" valign="top">VkDeviceSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buffer_manager.html#acb3c42b0b9cb49b6099d4a948c43860f">bufferSize</a> {}</td></tr>
 <tr class="separator:acb3c42b0b9cb49b6099d4a948c43860f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fb1c1c3607c296cba88b566ff93d5ed"><td class="memItemLeft" align="right" valign="top">VkDeviceAddress&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buffer_manager.html#a7fb1c1c3607c296cba88b566ff93d5ed">bufferAddress</a> {VK_NULL_HANDLE}</td></tr>
+<tr class="memitem:a7fb1c1c3607c296cba88b566ff93d5ed"><td class="memItemLeft" align="right" valign="top">VkDeviceAddress&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buffer_manager.html#a7fb1c1c3607c296cba88b566ff93d5ed">bufferAddress</a> {}</td></tr>
 <tr class="separator:a7fb1c1c3607c296cba88b566ff93d5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a02ce0b2826a9aebcda41a14a2c29a434"><td class="memItemLeft" align="right" valign="top">std::deque&lt; std::function&lt; void()&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buffer_manager.html#a02ce0b2826a9aebcda41a14a2c29a434">deletionQueue</a> {}</td></tr>
+<tr class="separator:a02ce0b2826a9aebcda41a14a2c29a434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76051ffa96174b655eb6a21a90a85e39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vulkan_graphics_engine_link.html">VulkanGraphicsEngineLink</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buffer_manager.html#a76051ffa96174b655eb6a21a90a85e39">linkedRenderEngine</a> {}</td></tr>
+<tr class="separator:a76051ffa96174b655eb6a21a90a85e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa88844b5d0d98fe6cf4e1e78dc849f92"><td class="memItemLeft" align="right" valign="top">VmaAllocation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buffer_manager.html#aa88844b5d0d98fe6cf4e1e78dc849f92">allocation</a> {}</td></tr>
+<tr class="separator:aa88844b5d0d98fe6cf4e1e78dc849f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="afcd89d83c5f9dc4e78f18d38b2e46839"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcd89d83c5f9dc4e78f18d38b2e46839">&#9670;&nbsp;</a></span>create()</h2>
+<a id="aa5d45ea925e91e40ad3d98b577c6b972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5d45ea925e91e40ad3d98b577c6b972">&#9670;&nbsp;</a></span>create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138,7 +169,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void* BufferManager::create </td>
+          <td class="memname">virtual void* BufferManager::create </td>
           <td>(</td>
           <td class="paramtype">VkDeviceSize&#160;</td>
           <td class="paramname"><em>size</em>, </td>
@@ -163,7 +194,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -264,6 +295,28 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa88844b5d0d98fe6cf4e1e78dc849f92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa88844b5d0d98fe6cf4e1e78dc849f92">&#9670;&nbsp;</a></span>allocation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VmaAllocation BufferManager::allocation {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aeb70904534529996cbb47df4682e1acd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeb70904534529996cbb47df4682e1acd">&#9670;&nbsp;</a></span>buffer</h2>
 
@@ -285,7 +338,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">VkDeviceAddress BufferManager::bufferAddress {VK_NULL_HANDLE}</td>
+          <td class="memname">VkDeviceAddress BufferManager::bufferAddress {}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -320,8 +373,52 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a02ce0b2826a9aebcda41a14a2c29a434"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02ce0b2826a9aebcda41a14a2c29a434">&#9670;&nbsp;</a></span>deletionQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::deque&lt;std::function&lt;void()&gt; &gt; BufferManager::deletionQueue {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76051ffa96174b655eb6a21a90a85e39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76051ffa96174b655eb6a21a90a85e39">&#9670;&nbsp;</a></span>linkedRenderEngine</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vulkan_graphics_engine_link.html">VulkanGraphicsEngineLink</a>* BufferManager::linkedRenderEngine {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>CrystalEngine/src/GraphicsEngine/Vulkan/<a class="el" href="_buffer_manager_8hpp_source.html">BufferManager.hpp</a></li>
+<li>CrystalEngine/src/GraphicsEngine/Vulkan/<a class="el" href="buffer_manager_8hpp_source.html">bufferManager.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

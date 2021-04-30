@@ -103,22 +103,25 @@ $(document).ready(function(){initNavTree('class_asset.html',''); initResizable()
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_asset_8hpp_source.html">Asset.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="asset_8hpp_source.html">asset.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Asset:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_asset__coll__graph.png" border="0" usemap="#_asset_coll__map" alt="Collaboration graph"/></div>
 <map name="_asset_coll__map" id="_asset_coll__map">
-<area shape="rect" title=" " alt="" coords="139,124,197,151"/>
-<area shape="rect" href="struct_uniform_buffer_object.html" title=" " alt="" coords="5,5,163,32"/>
-<area shape="rect" href="class_buffer_manager.html" title=" " alt="" coords="193,5,311,32"/>
+<area shape="rect" title=" " alt="" coords="139,332,197,359"/>
+<area shape="rect" href="struct_uniform_buffer_object.html" title=" " alt="" coords="5,199,163,225"/>
+<area shape="rect" href="class_buffer_manager.html" title=" " alt="" coords="193,199,311,225"/>
+<area shape="rect" href="class_vulkan_graphics_engine_link.html" title=" " alt="" coords="155,109,349,136"/>
+<area shape="rect" href="class_vulkan_settings.html" title=" " alt="" coords="101,13,221,39"/>
+<area shape="rect" href="struct_vulkan_graphics_engine_link_1_1_physical_device_info.html" title=" " alt="" coords="245,5,440,47"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a51347f3e11fef8401191a6fe83e7b33c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset.html#a51347f3e11fef8401191a6fe83e7b33c">Asset</a> (const char *modelFileName, const std::vector&lt; const char * &gt; &amp;textureFileNames, const std::vector&lt; const char * &gt; &amp;shaderFileNames, <a class="el" href="class_settings.html">Settings</a> *EngineSettings=new <a class="el" href="class_settings.html">Settings</a>{}, glm::vec3 initialPosition={0, 0, 0}, glm::vec3 initialRotation={0, 0, 0}, glm::vec3 initialScale={1, 1, 1})</td></tr>
-<tr class="separator:a51347f3e11fef8401191a6fe83e7b33c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c83ec929d6a05e6e87ff1422f3d4841"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset.html#a7c83ec929d6a05e6e87ff1422f3d4841">Asset</a> (const char *modelFileName, const std::vector&lt; const char * &gt; &amp;textureFileNames, const std::vector&lt; const char * &gt; &amp;shaderFileNames, glm::vec3 initialPosition={0, 0, 0}, glm::vec3 initialRotation={0, 0, 0}, glm::vec3 initialScale={1, 1, 1})</td></tr>
+<tr class="separator:a7c83ec929d6a05e6e87ff1422f3d4841"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ff33e09473105930fbe4cf55596983c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset.html#a0ff33e09473105930fbe4cf55596983c">reloadAsset</a> (const char *modelFileName=nullptr, const std::vector&lt; const char * &gt; *textureFileNames=nullptr, const std::vector&lt; const char * &gt; *shaderFileNames=nullptr)</td></tr>
 <tr class="separator:a0ff33e09473105930fbe4cf55596983c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa36459a1cbcdd58eb02ff181b73a9caf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset.html#aa36459a1cbcdd58eb02ff181b73a9caf">destroy</a> ()</td></tr>
@@ -140,8 +143,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a0cb775ed28f3676510129b32b681fc03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf52f47f284dc79f2ee475dc9dc8d2ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_buffer_manager.html">BufferManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset.html#aaf52f47f284dc79f2ee475dc9dc8d2ce">indexBuffer</a> {}</td></tr>
 <tr class="separator:aaf52f47f284dc79f2ee475dc9dc8d2ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc414e6782d3c5ddc1f4383ab1a9d42b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_pipeline_manager.html">PipelineManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset.html#afc414e6782d3c5ddc1f4383ab1a9d42b">pipelineManagers</a> {}</td></tr>
-<tr class="separator:afc414e6782d3c5ddc1f4383ab1a9d42b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09bb9bd0fc85f03e9f40ed5ccac0635b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_buffer_manager.html">BufferManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset.html#a09bb9bd0fc85f03e9f40ed5ccac0635b">transformationBuffer</a> {}</td></tr>
+<tr class="separator:a09bb9bd0fc85f03e9f40ed5ccac0635b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aace7c0f54ca1a2f3b7b1372831e8f68e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_rasterization_pipeline_manager.html">RasterizationPipelineManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset.html#aace7c0f54ca1a2f3b7b1372831e8f68e">pipelineManagers</a> {}</td></tr>
+<tr class="separator:aace7c0f54ca1a2f3b7b1372831e8f68e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66f03e69b0cc8b5918dab463403dbd8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_uniform_buffer_object.html">UniformBufferObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset.html#a66f03e69b0cc8b5918dab463403dbd8d">uniformBufferObject</a> {}</td></tr>
 <tr class="separator:a66f03e69b0cc8b5918dab463403dbd8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45299feec5e866e3caf7de6226134a29"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_image_manager.html">ImageManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset.html#a45299feec5e866e3caf7de6226134a29">textureImages</a> {}</td></tr>
@@ -164,10 +169,14 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aa814e9581c03d5f2467ac3fc542ec976"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe985147ba5aeae5af7df865353b98b3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset.html#afe985147ba5aeae5af7df865353b98b3">render</a> {true}</td></tr>
 <tr class="separator:afe985147ba5aeae5af7df865353b98b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51396feed9f2b444660b71f299e7da47"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset.html#a51396feed9f2b444660b71f299e7da47">triangleCount</a> {}</td></tr>
+<tr class="separator:a51396feed9f2b444660b71f299e7da47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa73168d68b87bfbf0dbf56d3d55ea748"><td class="memItemLeft" align="right" valign="top">VkTransformMatrixKHR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_asset.html#aa73168d68b87bfbf0dbf56d3d55ea748">transformationMatrix</a> {1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f}</td></tr>
+<tr class="separator:aa73168d68b87bfbf0dbf56d3d55ea748"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a51347f3e11fef8401191a6fe83e7b33c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51347f3e11fef8401191a6fe83e7b33c">&#9670;&nbsp;</a></span>Asset()</h2>
+<a id="a7c83ec929d6a05e6e87ff1422f3d4841"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c83ec929d6a05e6e87ff1422f3d4841">&#9670;&nbsp;</a></span>Asset()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,12 +201,6 @@ Public Attributes</h2></td></tr>
           <td></td>
           <td class="paramtype">const std::vector&lt; const char * &gt; &amp;&#160;</td>
           <td class="paramname"><em>shaderFileNames</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_settings.html">Settings</a> *&#160;</td>
-          <td class="paramname"><em>EngineSettings</em> = <code>new&#160;<a class="el" href="class_settings.html">Settings</a>{}</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -397,14 +400,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="afc414e6782d3c5ddc1f4383ab1a9d42b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc414e6782d3c5ddc1f4383ab1a9d42b">&#9670;&nbsp;</a></span>pipelineManagers</h2>
+<a id="aace7c0f54ca1a2f3b7b1372831e8f68e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aace7c0f54ca1a2f3b7b1372831e8f68e">&#9670;&nbsp;</a></span>pipelineManagers</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="class_pipeline_manager.html">PipelineManager</a>&gt; Asset::pipelineManagers {}</td>
+          <td class="memname">std::vector&lt;<a class="el" href="class_rasterization_pipeline_manager.html">RasterizationPipelineManager</a>&gt; Asset::pipelineManagers {}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -509,6 +512,48 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a09bb9bd0fc85f03e9f40ed5ccac0635b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09bb9bd0fc85f03e9f40ed5ccac0635b">&#9670;&nbsp;</a></span>transformationBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_buffer_manager.html">BufferManager</a> Asset::transformationBuffer {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa73168d68b87bfbf0dbf56d3d55ea748"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa73168d68b87bfbf0dbf56d3d55ea748">&#9670;&nbsp;</a></span>transformationMatrix</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkTransformMatrixKHR Asset::transformationMatrix {1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51396feed9f2b444660b71f299e7da47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51396feed9f2b444660b71f299e7da47">&#9670;&nbsp;</a></span>triangleCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Asset::triangleCount {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa70810bbd76d6ecbd8778e15c426d5cf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa70810bbd76d6ecbd8778e15c426d5cf">&#9670;&nbsp;</a></span>uniformBuffer</h2>
 
@@ -580,7 +625,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>CrystalEngine/src/GraphicsEngine/Vulkan/<a class="el" href="_asset_8hpp_source.html">Asset.hpp</a></li>
+<li>CrystalEngine/src/GraphicsEngine/Vulkan/<a class="el" href="asset_8hpp_source.html">asset.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

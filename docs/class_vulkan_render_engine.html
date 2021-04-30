@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('class_vulkan_render_engine.html',''); 
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_vulkan_render_engine_8hpp_source.html">VulkanRenderEngine.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="vulkan_render_engine_8hpp_source.html">vulkanRenderEngine.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for VulkanRenderEngine:</div>
 <div class="dyncontent">
@@ -122,11 +122,13 @@ Collaboration diagram for VulkanRenderEngine:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_vulkan_render_engine__coll__graph.png" border="0" usemap="#_vulkan_render_engine_coll__map" alt="Collaboration graph"/></div>
 <map name="_vulkan_render_engine_coll__map" id="_vulkan_render_engine_coll__map">
-<area shape="rect" title=" " alt="" coords="297,95,455,121"/>
-<area shape="rect" href="class_render_pass_manager.html" title=" " alt="" coords="5,5,160,32"/>
-<area shape="rect" href="class_command_buffer_manager.html" title=" " alt="" coords="184,5,371,32"/>
-<area shape="rect" href="class_camera.html" title=" " alt="" coords="438,5,511,32"/>
-<area shape="rect" href="class_settings.html" title=" " alt="" coords="536,5,611,32"/>
+<area shape="rect" title=" " alt="" coords="787,125,944,152"/>
+<area shape="rect" href="class_render_pass_manager.html" title=" " alt="" coords="397,5,552,32"/>
+<area shape="rect" href="class_command_buffer_manager.html" title=" " alt="" coords="381,56,568,83"/>
+<area shape="rect" href="class_camera.html" title=" " alt="" coords="438,169,511,196"/>
+<area shape="rect" href="class_vulkan_settings.html" title=" " alt="" coords="43,143,163,169"/>
+<area shape="rect" href="class_vulkan_graphics_engine_link.html" title=" " alt="" coords="377,220,572,247"/>
+<area shape="rect" href="struct_vulkan_graphics_engine_link_1_1_physical_device_info.html" title=" " alt="" coords="5,247,200,289"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -143,9 +145,9 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a960172e11514e3884b5b871b2fb565e0"><td class="memItemLeft" align="right" valign="top">GLFWmonitor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_render_engine.html#a960172e11514e3884b5b871b2fb565e0">monitor</a> {}</td></tr>
 <tr class="separator:a960172e11514e3884b5b871b2fb565e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1549d32efdc504462f38c8ea30c8e16c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_settings.html">Settings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_render_engine.html#a1549d32efdc504462f38c8ea30c8e16c">settings</a> {}</td></tr>
-<tr class="separator:a1549d32efdc504462f38c8ea30c8e16c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f67791e3a9ab0b9b73f7956079dbb22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_camera.html">Camera</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_render_engine.html#a1f67791e3a9ab0b9b73f7956079dbb22">camera</a> {}</td></tr>
+<tr class="memitem:ae17c190d5ba0238e881fda8c60828e8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vulkan_settings.html">VulkanSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_render_engine.html#ae17c190d5ba0238e881fda8c60828e8a">settings</a> {}</td></tr>
+<tr class="separator:ae17c190d5ba0238e881fda8c60828e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f67791e3a9ab0b9b73f7956079dbb22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_camera.html">Camera</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_render_engine.html#a1f67791e3a9ab0b9b73f7956079dbb22">camera</a> {&amp;<a class="el" href="class_vulkan_render_engine.html#ae17c190d5ba0238e881fda8c60828e8a">settings</a>}</td></tr>
 <tr class="separator:a1f67791e3a9ab0b9b73f7956079dbb22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac88a8fe97c72f3ca348f0b9a6c21f47c"><td class="memItemLeft" align="right" valign="top">GLFWwindow *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_render_engine.html#ac88a8fe97c72f3ca348f0b9a6c21f47c">window</a> {}</td></tr>
 <tr class="separator:ac88a8fe97c72f3ca348f0b9a6c21f47c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,6 +155,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:acc2f7180bc0ddd5257443998db3534f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6ce70b616013e933750c98d7a6ea38c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_command_buffer_manager.html">CommandBufferManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_render_engine.html#af6ce70b616013e933750c98d7a6ea38c">commandBufferManager</a> {}</td></tr>
 <tr class="separator:af6ce70b616013e933750c98d7a6ea38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab72483407acd6a217846082a51acf38d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vulkan_graphics_engine_link_1_1_physical_device_info.html">VulkanGraphicsEngineLink::PhysicalDeviceInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_render_engine.html#ab72483407acd6a217846082a51acf38d">physicalDeviceInfo</a> {}</td></tr>
+<tr class="separator:ab72483407acd6a217846082a51acf38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -190,6 +194,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a2a73d2f08dc3d70dab49dd5d230cd7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a427a59b2d3ebe0ac39078bce9feb0e3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_render_pass_manager.html">RenderPassManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_render_engine.html#a427a59b2d3ebe0ac39078bce9feb0e3a">renderPassManager</a> {}</td></tr>
 <tr class="separator:a427a59b2d3ebe0ac39078bce9feb0e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b36fec6cc0057b7559b9fa8d90cdb52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vulkan_graphics_engine_link.html">VulkanGraphicsEngineLink</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vulkan_render_engine.html#a0b36fec6cc0057b7559b9fa8d90cdb52">renderEngineLink</a> {}</td></tr>
+<tr class="separator:a0b36fec6cc0057b7559b9fa8d90cdb52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2631cec67f301bd470156818b5e67738"></a>
@@ -335,7 +341,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_vulkan_render_engine_rasterizer.html#a5ee02c9dd11171928622613f248172fc">VulkanRenderEngineRasterizer</a>.</p>
+<p>Reimplemented in <a class="el" href="class_vulkan_render_engine_ray_tracer.html#a051f05e7e97566252df6d073bd4dc4ff">VulkanRenderEngineRayTracer</a>, and <a class="el" href="class_vulkan_render_engine_rasterizer.html#a5ee02c9dd11171928622613f248172fc">VulkanRenderEngineRasterizer</a>.</p>
 
 </div>
 </div>
@@ -423,7 +429,7 @@ Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_camera.html">Camera</a> VulkanRenderEngine::camera {}</td>
+          <td class="memname"><a class="el" href="class_camera.html">Camera</a> VulkanRenderEngine::camera {&amp;<a class="el" href="class_vulkan_render_engine.html#ae17c190d5ba0238e881fda8c60828e8a">settings</a>}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -568,6 +574,20 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ab72483407acd6a217846082a51acf38d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab72483407acd6a217846082a51acf38d">&#9670;&nbsp;</a></span>physicalDeviceInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_vulkan_graphics_engine_link_1_1_physical_device_info.html">VulkanGraphicsEngineLink::PhysicalDeviceInfo</a> VulkanRenderEngine::physicalDeviceInfo {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2a73d2f08dc3d70dab49dd5d230cd7eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2a73d2f08dc3d70dab49dd5d230cd7eb">&#9670;&nbsp;</a></span>pipelineLayout</h2>
 
@@ -601,6 +621,28 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">VkQueue VulkanRenderEngine::presentQueue {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b36fec6cc0057b7559b9fa8d90cdb52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b36fec6cc0057b7559b9fa8d90cdb52">&#9670;&nbsp;</a></span>renderEngineLink</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vulkan_graphics_engine_link.html">VulkanGraphicsEngineLink</a> VulkanRenderEngine::renderEngineLink {}</td>
         </tr>
       </table>
   </td>
@@ -656,14 +698,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1549d32efdc504462f38c8ea30c8e16c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1549d32efdc504462f38c8ea30c8e16c">&#9670;&nbsp;</a></span>settings</h2>
+<a id="ae17c190d5ba0238e881fda8c60828e8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae17c190d5ba0238e881fda8c60828e8a">&#9670;&nbsp;</a></span>settings</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_settings.html">Settings</a> VulkanRenderEngine::settings {}</td>
+          <td class="memname"><a class="el" href="class_vulkan_settings.html">VulkanSettings</a> VulkanRenderEngine::settings {}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -707,7 +749,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>CrystalEngine/src/GraphicsEngine/Vulkan/<a class="el" href="_vulkan_render_engine_8hpp_source.html">VulkanRenderEngine.hpp</a></li>
+<li>CrystalEngine/src/GraphicsEngine/Vulkan/<a class="el" href="vulkan_render_engine_8hpp_source.html">vulkanRenderEngine.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

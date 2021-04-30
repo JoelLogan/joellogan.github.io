@@ -15,11 +15,13 @@ var class_vulkan_render_engine =
     [ "imagesInFlight", "class_vulkan_render_engine.html#a46ede71ed61765a9197ad568e3ce89ea", null ],
     [ "inFlightFences", "class_vulkan_render_engine.html#a3cc7428c91f9e3e52581f85e81b3a360", null ],
     [ "monitor", "class_vulkan_render_engine.html#a960172e11514e3884b5b871b2fb565e0", null ],
+    [ "physicalDeviceInfo", "class_vulkan_render_engine.html#ab72483407acd6a217846082a51acf38d", null ],
     [ "pipelineLayout", "class_vulkan_render_engine.html#a2a73d2f08dc3d70dab49dd5d230cd7eb", null ],
     [ "presentQueue", "class_vulkan_render_engine.html#a6c3c026359dd7f46273ed593eeaab42e", null ],
+    [ "renderEngineLink", "class_vulkan_render_engine.html#a0b36fec6cc0057b7559b9fa8d90cdb52", null ],
     [ "renderFinishedSemaphores", "class_vulkan_render_engine.html#a548f9f718ac33b550de115e8b8f895e7", null ],
     [ "renderPassManager", "class_vulkan_render_engine.html#a427a59b2d3ebe0ac39078bce9feb0e3a", null ],
-    [ "settings", "class_vulkan_render_engine.html#a1549d32efdc504462f38c8ea30c8e16c", null ],
+    [ "settings", "class_vulkan_render_engine.html#ae17c190d5ba0238e881fda8c60828e8a", null ],
     [ "swapchain", "class_vulkan_render_engine.html#a97a55300a4e79ffe77472bfc808532b4", null ],
     [ "window", "class_vulkan_render_engine.html#ac88a8fe97c72f3ca348f0b9a6c21f47c", null ]
 ];

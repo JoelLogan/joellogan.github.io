@@ -1,5 +1,8 @@
 <map id="Asset" name="Asset">
-<area shape="rect" id="node1" title=" " alt="" coords="139,124,197,151"/>
-<area shape="rect" id="node2" href="$struct_uniform_buffer_object.html" title=" " alt="" coords="5,5,163,32"/>
-<area shape="rect" id="node3" href="$class_buffer_manager.html" title=" " alt="" coords="193,5,311,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="139,332,197,359"/>
+<area shape="rect" id="node2" href="$struct_uniform_buffer_object.html" title=" " alt="" coords="5,199,163,225"/>
+<area shape="rect" id="node3" href="$class_buffer_manager.html" title=" " alt="" coords="193,199,311,225"/>
+<area shape="rect" id="node4" href="$class_vulkan_graphics_engine_link.html" title=" " alt="" coords="155,109,349,136"/>
+<area shape="rect" id="node5" href="$class_vulkan_settings.html" title=" " alt="" coords="101,13,221,39"/>
+<area shape="rect" id="node6" href="$struct_vulkan_graphics_engine_link_1_1_physical_device_info.html" title=" " alt="" coords="245,5,440,47"/>
 </map>

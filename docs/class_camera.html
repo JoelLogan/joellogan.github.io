@@ -103,17 +103,28 @@ $(document).ready(function(){initNavTree('class_camera.html',''); initResizable(
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_camera_8hpp_source.html">Camera.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="camera_8hpp_source.html">camera.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Camera:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_camera__coll__graph.png" border="0" usemap="#_camera_coll__map" alt="Collaboration graph"/></div>
+<map name="_camera_coll__map" id="_camera_coll__map">
+<area shape="rect" title=" " alt="" coords="29,95,102,121"/>
+<area shape="rect" href="class_vulkan_settings.html" title=" " alt="" coords="5,5,125,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a0fd8e6703aefe57bb0366f88f0f8a478"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a0fd8e6703aefe57bb0366f88f0f8a478">Camera</a> (<a class="el" href="class_vulkan_settings.html">VulkanSettings</a> *vulkanSettings)</td></tr>
+<tr class="separator:a0fd8e6703aefe57bb0366f88f0f8a478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac69cb920d2b43a6adf5208dff2dbfcd9"><td class="memItemLeft" align="right" valign="top">std::array&lt; glm::mat4, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#ac69cb920d2b43a6adf5208dff2dbfcd9">update</a> ()</td></tr>
 <tr class="separator:ac69cb920d2b43a6adf5208dff2dbfcd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a03987cf3bbf312be16bb881939382d83"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a03987cf3bbf312be16bb881939382d83">movementSpeed</a> {2.5}</td></tr>
-<tr class="separator:a03987cf3bbf312be16bb881939382d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2471be268a066b6f9fead57d42c1f82a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vulkan_settings.html">VulkanSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a2471be268a066b6f9fead57d42c1f82a">settings</a> {}</td></tr>
+<tr class="separator:a2471be268a066b6f9fead57d42c1f82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04b5db2c530d8630660e8cfb93a4b3b5"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a04b5db2c530d8630660e8cfb93a4b3b5">position</a> {0, 0, 2}</td></tr>
 <tr class="separator:a04b5db2c530d8630660e8cfb93a4b3b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8847cf29c9c124906ad5d97ecb5c55d1"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a8847cf29c9c124906ad5d97ecb5c55d1">front</a> {0, 1, 0}</td></tr>
@@ -126,19 +137,38 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ad76701b22630f2df28a0ae15f0497a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab56fcb39f580e8d2159cf2c9c6d9a65a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#ab56fcb39f580e8d2159cf2c9c6d9a65a">pitch</a> {}</td></tr>
 <tr class="separator:ab56fcb39f580e8d2159cf2c9c6d9a65a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab194c5c143c1e8d57cfc90a09ba6ed13"><td class="memItemLeft" align="right" valign="top">std::array&lt; int, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#ab194c5c143c1e8d57cfc90a09ba6ed13">resolution</a> {}</td></tr>
-<tr class="separator:ab194c5c143c1e8d57cfc90a09ba6ed13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a279a1c75fb0375438c1549e005a9d5a3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a279a1c75fb0375438c1549e005a9d5a3">renderDistance</a> {10}</td></tr>
-<tr class="separator:a279a1c75fb0375438c1549e005a9d5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa79f7543e61e73ff24edc231098fa873"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#aa79f7543e61e73ff24edc231098fa873">fov</a> {90}</td></tr>
-<tr class="separator:aa79f7543e61e73ff24edc231098fa873"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add93fedd6b9a6a6e2c784aeda624de83"><td class="memItemLeft" align="right" valign="top">glm::mat4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#add93fedd6b9a6a6e2c784aeda624de83">view</a> {glm::lookAt(<a class="el" href="class_camera.html#a04b5db2c530d8630660e8cfb93a4b3b5">position</a>, <a class="el" href="class_camera.html#a04b5db2c530d8630660e8cfb93a4b3b5">position</a> + <a class="el" href="class_camera.html#a8847cf29c9c124906ad5d97ecb5c55d1">front</a>, glm::vec3(0.0f, 0.0f, 1.0f))}</td></tr>
+<tr class="memitem:add93fedd6b9a6a6e2c784aeda624de83"><td class="memItemLeft" align="right" valign="top">glm::mat4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#add93fedd6b9a6a6e2c784aeda624de83">view</a> {glm::lookAt(<a class="el" href="class_camera.html#a04b5db2c530d8630660e8cfb93a4b3b5">position</a>, <a class="el" href="class_camera.html#a04b5db2c530d8630660e8cfb93a4b3b5">position</a> + <a class="el" href="class_camera.html#a8847cf29c9c124906ad5d97ecb5c55d1">front</a>, <a class="el" href="class_camera.html#a3fe5f351380fb118ffc600591769f049">up</a>)}</td></tr>
 <tr class="separator:add93fedd6b9a6a6e2c784aeda624de83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a597bdefcac8f7886d79b3b811c347d58"><td class="memItemLeft" align="right" valign="top">glm::mat4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a597bdefcac8f7886d79b3b811c347d58">proj</a> {glm::perspective(glm::radians(<a class="el" href="class_camera.html#aa79f7543e61e73ff24edc231098fa873">fov</a>), double(<a class="el" href="class_camera.html#ab194c5c143c1e8d57cfc90a09ba6ed13">resolution</a>[0]) / std::max(<a class="el" href="class_camera.html#ab194c5c143c1e8d57cfc90a09ba6ed13">resolution</a>[1], 1), 0.01, <a class="el" href="class_camera.html#a279a1c75fb0375438c1549e005a9d5a3">renderDistance</a>)}</td></tr>
+<tr class="memitem:a597bdefcac8f7886d79b3b811c347d58"><td class="memItemLeft" align="right" valign="top">glm::mat4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a597bdefcac8f7886d79b3b811c347d58">proj</a> {}</td></tr>
 <tr class="separator:a597bdefcac8f7886d79b3b811c347d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbd3010ed7a5dd2aa5dffe8b178cd15d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#abbd3010ed7a5dd2aa5dffe8b178cd15d">mouseSensitivity</a> {0.1}</td></tr>
-<tr class="separator:abbd3010ed7a5dd2aa5dffe8b178cd15d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a0fd8e6703aefe57bb0366f88f0f8a478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fd8e6703aefe57bb0366f88f0f8a478">&#9670;&nbsp;</a></span>Camera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera::Camera </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_vulkan_settings.html">VulkanSettings</a> *&#160;</td>
+          <td class="paramname"><em>vulkanSettings</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac69cb920d2b43a6adf5208dff2dbfcd9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac69cb920d2b43a6adf5208dff2dbfcd9">&#9670;&nbsp;</a></span>update()</h2>
@@ -166,20 +196,6 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa79f7543e61e73ff24edc231098fa873"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa79f7543e61e73ff24edc231098fa873">&#9670;&nbsp;</a></span>fov</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Camera::fov {90}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a8847cf29c9c124906ad5d97ecb5c55d1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8847cf29c9c124906ad5d97ecb5c55d1">&#9670;&nbsp;</a></span>front</h2>
 
@@ -188,34 +204,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">glm::vec3 Camera::front {0, 1, 0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abbd3010ed7a5dd2aa5dffe8b178cd15d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbd3010ed7a5dd2aa5dffe8b178cd15d">&#9670;&nbsp;</a></span>mouseSensitivity</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Camera::mouseSensitivity {0.1}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a03987cf3bbf312be16bb881939382d83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03987cf3bbf312be16bb881939382d83">&#9670;&nbsp;</a></span>movementSpeed</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Camera::movementSpeed {2.5}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -257,35 +245,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">glm::mat4 Camera::proj {glm::perspective(glm::radians(<a class="el" href="class_camera.html#aa79f7543e61e73ff24edc231098fa873">fov</a>), double(<a class="el" href="class_camera.html#ab194c5c143c1e8d57cfc90a09ba6ed13">resolution</a>[0]) / std::max(<a class="el" href="class_camera.html#ab194c5c143c1e8d57cfc90a09ba6ed13">resolution</a>[1], 1), 0.01, <a class="el" href="class_camera.html#a279a1c75fb0375438c1549e005a9d5a3">renderDistance</a>)}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a279a1c75fb0375438c1549e005a9d5a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a279a1c75fb0375438c1549e005a9d5a3">&#9670;&nbsp;</a></span>renderDistance</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Camera::renderDistance {10}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab194c5c143c1e8d57cfc90a09ba6ed13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab194c5c143c1e8d57cfc90a09ba6ed13">&#9670;&nbsp;</a></span>resolution</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;int, 2&gt; Camera::resolution {}</td>
+          <td class="memname">glm::mat4 Camera::proj {}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -300,6 +260,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">glm::vec3 Camera::right {glm::cross(<a class="el" href="class_camera.html#a8847cf29c9c124906ad5d97ecb5c55d1">front</a>, <a class="el" href="class_camera.html#a3fe5f351380fb118ffc600591769f049">up</a>)}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2471be268a066b6f9fead57d42c1f82a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2471be268a066b6f9fead57d42c1f82a">&#9670;&nbsp;</a></span>settings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vulkan_settings.html">VulkanSettings</a>* Camera::settings {}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -327,7 +301,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">glm::mat4 Camera::view {glm::lookAt(<a class="el" href="class_camera.html#a04b5db2c530d8630660e8cfb93a4b3b5">position</a>, <a class="el" href="class_camera.html#a04b5db2c530d8630660e8cfb93a4b3b5">position</a> + <a class="el" href="class_camera.html#a8847cf29c9c124906ad5d97ecb5c55d1">front</a>, glm::vec3(0.0f, 0.0f, 1.0f))}</td>
+          <td class="memname">glm::mat4 Camera::view {glm::lookAt(<a class="el" href="class_camera.html#a04b5db2c530d8630660e8cfb93a4b3b5">position</a>, <a class="el" href="class_camera.html#a04b5db2c530d8630660e8cfb93a4b3b5">position</a> + <a class="el" href="class_camera.html#a8847cf29c9c124906ad5d97ecb5c55d1">front</a>, <a class="el" href="class_camera.html#a3fe5f351380fb118ffc600591769f049">up</a>)}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -349,7 +323,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>CrystalEngine/src/GraphicsEngine/Vulkan/<a class="el" href="_camera_8hpp_source.html">Camera.hpp</a></li>
+<li>CrystalEngine/src/GraphicsEngine/Vulkan/<a class="el" href="camera_8hpp_source.html">camera.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

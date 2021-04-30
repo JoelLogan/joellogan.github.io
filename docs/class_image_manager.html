@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('class_image_manager.html',''); initRes
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_image_manager_8hpp_source.html">ImageManager.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="image_manager_8hpp_source.html">imageManager.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -111,12 +111,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeb8cd80345a246f12baefde6d08b3f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49dd5cd506d5c86d59afa6676937a2df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a49dd5cd506d5c86d59afa6676937a2df">setEngineLink</a> (<a class="el" href="class_vulkan_graphics_engine_link.html">VulkanGraphicsEngineLink</a> *engineLink)</td></tr>
 <tr class="separator:a49dd5cd506d5c86d59afa6676937a2df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6a3b634b6e8396f8092035dd1d7f841"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#ae6a3b634b6e8396f8092035dd1d7f841">create</a> (VkFormat format, VkImageTiling tiling, VkSampleCountFlagBits msaaSamples, VkImageUsageFlags usage, VmaMemoryUsage allocationUsage, int mipLevels, int width, int height, <a class="el" href="_image_manager_8hpp.html#a3154c405c975616503bac23f51b78fc0">ImageType</a> imageType, <a class="el" href="class_buffer_manager.html">BufferManager</a> *dataSource=nullptr)</td></tr>
+<tr class="memitem:ae6a3b634b6e8396f8092035dd1d7f841"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#ae6a3b634b6e8396f8092035dd1d7f841">create</a> (VkFormat format, VkImageTiling tiling, VkSampleCountFlagBits msaaSamples, VkImageUsageFlags usage, VmaMemoryUsage allocationUsage, int mipLevels, int width, int height, <a class="el" href="image_manager_8hpp.html#a3154c405c975616503bac23f51b78fc0">ImageType</a> imageType, <a class="el" href="class_buffer_manager.html">BufferManager</a> *dataSource=nullptr)</td></tr>
 <tr class="separator:ae6a3b634b6e8396f8092035dd1d7f841"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5850f0209fd72045fc577d747a2b4d4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a5850f0209fd72045fc577d747a2b4d4c">toBuffer</a> (VkBuffer buffer, uint32_t width, uint32_t height) const</td></tr>
 <tr class="separator:a5850f0209fd72045fc577d747a2b4d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f6fb356aa8b495e66f36fd47761414b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a7f6fb356aa8b495e66f36fd47761414b">transition</a> (VkImageLayout oldLayout, VkImageLayout newLayout) const</td></tr>
-<tr class="separator:a7f6fb356aa8b495e66f36fd47761414b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f5c17c1685933891797986b353731a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a3f5c17c1685933891797986b353731a8">transition</a> (VkImageLayout oldLayout, VkImageLayout newLayout)</td></tr>
+<tr class="separator:a3f5c17c1685933891797986b353731a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -126,6 +126,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a4649553aac8ddeb7076f4f491b78ce3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3d0898810432a7dfb9ab07c58ce3ca9"><td class="memItemLeft" align="right" valign="top">VkSampler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#af3d0898810432a7dfb9ab07c58ce3ca9">sampler</a> {}</td></tr>
 <tr class="separator:af3d0898810432a7dfb9ab07c58ce3ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a424d235eb0a831e3f693fd9b8c4d03bc"><td class="memItemLeft" align="right" valign="top">VkFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a424d235eb0a831e3f693fd9b8c4d03bc">imageFormat</a> {}</td></tr>
+<tr class="separator:a424d235eb0a831e3f693fd9b8c4d03bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51a24d6a897c069b2fcd06464bb3f5f7"><td class="memItemLeft" align="right" valign="top">VkImageLayout&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image_manager.html#a51a24d6a897c069b2fcd06464bb3f5f7">imageLayout</a> {}</td></tr>
+<tr class="separator:a51a24d6a897c069b2fcd06464bb3f5f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae6a3b634b6e8396f8092035dd1d7f841"></a>
@@ -188,7 +192,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="_image_manager_8hpp.html#a3154c405c975616503bac23f51b78fc0">ImageType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="image_manager_8hpp.html#a3154c405c975616503bac23f51b78fc0">ImageType</a>&#160;</td>
           <td class="paramname"><em>imageType</em>, </td>
         </tr>
         <tr>
@@ -305,8 +309,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7f6fb356aa8b495e66f36fd47761414b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f6fb356aa8b495e66f36fd47761414b">&#9670;&nbsp;</a></span>transition()</h2>
+<a id="a3f5c17c1685933891797986b353731a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f5c17c1685933891797986b353731a8">&#9670;&nbsp;</a></span>transition()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -329,7 +333,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> const</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -350,6 +354,34 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">VkImage ImageManager::image {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a424d235eb0a831e3f693fd9b8c4d03bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a424d235eb0a831e3f693fd9b8c4d03bc">&#9670;&nbsp;</a></span>imageFormat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkFormat ImageManager::imageFormat {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51a24d6a897c069b2fcd06464bb3f5f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51a24d6a897c069b2fcd06464bb3f5f7">&#9670;&nbsp;</a></span>imageLayout</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkImageLayout ImageManager::imageLayout {}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -385,7 +417,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>CrystalEngine/src/GraphicsEngine/Vulkan/<a class="el" href="_image_manager_8hpp_source.html">ImageManager.hpp</a></li>
+<li>CrystalEngine/src/GraphicsEngine/Vulkan/<a class="el" href="image_manager_8hpp_source.html">imageManager.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

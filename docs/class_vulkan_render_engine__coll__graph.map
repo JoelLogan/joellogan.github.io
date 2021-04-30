@@ -1,7 +1,9 @@
 <map id="VulkanRenderEngine" name="VulkanRenderEngine">
-<area shape="rect" id="node1" title=" " alt="" coords="297,95,455,121"/>
-<area shape="rect" id="node2" href="$class_render_pass_manager.html" title=" " alt="" coords="5,5,160,32"/>
-<area shape="rect" id="node3" href="$class_command_buffer_manager.html" title=" " alt="" coords="184,5,371,32"/>
-<area shape="rect" id="node4" href="$class_camera.html" title=" " alt="" coords="438,5,511,32"/>
-<area shape="rect" id="node5" href="$class_settings.html" title=" " alt="" coords="536,5,611,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="787,125,944,152"/>
+<area shape="rect" id="node2" href="$class_render_pass_manager.html" title=" " alt="" coords="397,5,552,32"/>
+<area shape="rect" id="node3" href="$class_command_buffer_manager.html" title=" " alt="" coords="381,56,568,83"/>
+<area shape="rect" id="node4" href="$class_camera.html" title=" " alt="" coords="438,169,511,196"/>
+<area shape="rect" id="node5" href="$class_vulkan_settings.html" title=" " alt="" coords="43,143,163,169"/>
+<area shape="rect" id="node6" href="$class_vulkan_graphics_engine_link.html" title=" " alt="" coords="377,220,572,247"/>
+<area shape="rect" id="node7" href="$struct_vulkan_graphics_engine_link_1_1_physical_device_info.html" title=" " alt="" coords="5,247,200,289"/>
 </map>
