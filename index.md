@@ -19,4 +19,4 @@ To get started, you will need a few packages. Also, make sure that you are using
 
 ## Support
 
-If you are having any trouble, check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [report an issue on Github](https://support.github.com/contact).
+If you are having any trouble, check out our [documentation](https://percentboat4164.github.io/CrystalEngine/docs/index.html) or [report an issue on Github](https://github.com/PercentBoat4164/CrystalEngine/issues).
