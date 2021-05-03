@@ -36,7 +36,7 @@ var dir_1d42c97f99b2bc9301a4345936beca4c =
     ] ],
     [ "vulkanGraphicsEngineLink.hpp", "vulkan_graphics_engine_link_8hpp.html", [
       [ "VulkanGraphicsEngineLink", "class_vulkan_graphics_engine_link.html", "class_vulkan_graphics_engine_link" ],
-      [ "PhysicalDeviceInfo", "struct_vulkan_graphics_engine_link_1_1_physical_device_info.html", "struct_vulkan_graphics_engine_link_1_1_physical_device_info" ]
+      [ "VulkanGraphicsEngineLink::PhysicalDeviceInfo", "struct_vulkan_graphics_engine_link_1_1_physical_device_info.html", "struct_vulkan_graphics_engine_link_1_1_physical_device_info" ]
     ] ],
     [ "vulkanRenderEngine.hpp", "vulkan_render_engine_8hpp.html", "vulkan_render_engine_8hpp" ],
     [ "vulkanRenderEngineRasterizer.hpp", "vulkan_render_engine_rasterizer_8hpp.html", "vulkan_render_engine_rasterizer_8hpp" ],
