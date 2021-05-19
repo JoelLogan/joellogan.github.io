@@ -2,5 +2,6 @@ theme: jekyll-theme-cayman
 title: Crystal Engine
 description: A Game Development Engine Written In C++
 more_pages: true
+view_on_github: true
 home: https://joellogan.github.io
-docs: https://github.com
+docs: https://joellogan.github.io/docs/index.html
