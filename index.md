@@ -27,7 +27,7 @@ Here is a list of a few packages that you will need to download:
     
    (Copy and paste this command into your terminal)
 
-Those are the packages that Linux users will need to download for the render engine.
+Those are the packages that Linux users will need to download to use the render engine.
 
 ### Windows:
 
