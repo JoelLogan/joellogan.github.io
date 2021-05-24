@@ -15,7 +15,7 @@ To get started, you will need a few packages. Also, make sure that you are using
 
 Here is a list of a few packages that you will need to download:
 
- Linux:
+#Linux:
 
   Required: cmake, c++-9, python3, libglu1-mesa-dev, mesa-common-dev, libglu1-mesa-dev, mesa-common-dev
   
@@ -29,7 +29,7 @@ Here is a list of a few packages that you will need to download:
 
 Those are the packages that Linux users will need to download for the render engine.
 
-Next, Windows:
+#Windows:
 
 ## Build
 
