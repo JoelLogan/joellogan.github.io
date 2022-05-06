@@ -11,38 +11,8 @@ We hope to add macOS compatibility to the game engine in the coming months.
 
 ## Getting Started
 
-To get started, you will need a few packages. Also, make sure that you are using your favorite IDE.
-
-Here is a list of a few packages that you will need to download:
-
-### Linux:
-
-  Required: cmake, c++-9, libglu1-mesa-dev, mesa-common-dev
-
-    sudo apt install cmake c++-9 libglu1-mesa-dev mesa-common-dev
-  
-  Recommended: libglew-dev, libglfw3-dev, libglm-dev
-
-    sudo apt install libglew-dev libglfw3-dev libglm-dev
-  
-  If you plan to use the Vulkan Render Engine, install the Vulkan software development kit using the following list of commands:
-    
-    wget -qO - https://packages.lunarg.com/lunarg-signing-key-pub.asc | sudo apt-key add -;sudo wget -qO /etc/apt/sources.list.d/lunarg-vulkan-1.2.176-focal.list https://packages.lunarg.com/vulkan/1.2.176/lunarg-vulkan-1.2.176-focal.list;sudo apt update;sudo apt install vulkan-sdk
-    
-   (Copy and paste the commands into your terminal)
-
-Those are the packages that Linux users will need to download to use the render engine.
-
-### Windows:
-
-Required: [cmake](https://cmake.org/download/)
-
-(More to come...)
-
-## Build
-
-
+To download and start using this project, please visit the [documentation](https://joellogan.github.io/docs/index.html)
 
 ## Support
 
-If you are having any trouble, check out our [documentation](https://percentboat4164.github.io/CrystalEngine/docs/index.html) or [report an issue on Github](https://github.com/PercentBoat4164/CrystalEngine/issues).
+If you are having any trouble, check out our [documentation](https://percentboat4164.github.io/Illumination-Engine/docs/index.html) or [report an issue on Github](https://github.com/PercentBoat4164/Illumination-Engine/issues).
