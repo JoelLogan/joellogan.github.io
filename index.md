@@ -11,7 +11,7 @@ We hope to add macOS compatibility to the game engine in the coming months.
 
 ## Getting Started
 
-To download and start using this project, please visit the [documentation](https://joellogan.github.io/docs/index.html)
+To download and start using this project, please visit the [documentation](https://joellogan.github.io/docs/index.html) site and follow the instructions listed.
 
 ## Support
 
