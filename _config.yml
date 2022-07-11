@@ -5,3 +5,5 @@ more_pages: true
 view_on_github: true
 home: https://joellogan.github.io/
 docs: https://joellogan.github.io/docs/index.html
+include:  
+- "_*.html" 
