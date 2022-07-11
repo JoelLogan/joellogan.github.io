@@ -7,3 +7,4 @@ home: https://joellogan.github.io/
 docs: https://joellogan.github.io/docs/index.html
 include:  
 - "_*.html" 
+- "_*.svg"
