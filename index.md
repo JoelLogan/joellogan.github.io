@@ -7,15 +7,14 @@ profile:
 published: true
 ---
 
-[Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
+## Hello And Welcome
 
-If you want to use this space to write your biography here, edit the `index.md` file. You can put a picture in, too. Rename your picture to `profile.png` and put it in the `assets/images/` folder.
+My name is Joel Logan, and I am a Bob Jones University Computer Science student who has an interest in Software Development as a career. 
 
-The social-icons footer can be used to link profiles from GitHub, OrcID and ReasearchGate aprart form the usual Twitter, LinkedIn and Facebook. You can add your user ID in the `_config.yml` file to link your accounts.
+## Other Activities
 
-PS: If you liked the theme, do star it on GitHub!
+I've been making Minecraft plugins and mods on request for a few years, and my work can be found in my [Github](https://github.com/JoelLogan) or on the [Projects](https://joellogan.com/projects) page.
 
-### Also, check out:
+When I'm not coding or learning, I enjoy some simple DJing. I sometimes work with [Greenwood DJ](https://www.greenwooddj.com/) on some events. 
 
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
+#### Thanks For Stopping By!

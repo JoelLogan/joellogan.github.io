@@ -5,6 +5,7 @@ permalink: /projects/
 published: true
 ---
 
+*(I haven't finished adding all of my projects yet... WIP)*
 
 <div class="ProjectContainer">
 

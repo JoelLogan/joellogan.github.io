@@ -8,15 +8,15 @@ url: "https://joellogan.com" #custom url to be used instead of GitHub repository
 email: "joel@joellogan.com"
 
 # Social media links in footer
-linkedin: "joel-logan-280a5a301/"
-stackoverflow: ""
+linkedin: "joel-logan-280a5a301"
+stackoverflow:
 github: "JoelLogan"
-researchgate: ""
-orcid: ""
-quora: ""
-instagram: ""
-facebook: ""
-bluesky: ""
+researchgate:
+orcid:
+quora:
+instagram:
+facebook:
+bluesky:
 
 # Markdown
 highlighter: rouge
@@ -54,6 +54,7 @@ include:
 exclude:
   - README.md
   - LICENSE.md
+  - Template.md
 
 plugins:
   - jekyll-seo-tag
