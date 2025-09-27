@@ -1,27 +1,22 @@
 ### your site title here
 
-title: Your Name
-description: subtitle | affiliations | motto
+title: Joel Logan
+description: BJU Student | FIRST Alum
 
 baseurl: "" #name of GitHub repository
 url: "https://joellogan.com" #custom url to be used instead of GitHub repository
-email: #
-
-# Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
+email: "joel@joellogan.com"
 
 # Social media links in footer
-linkedin: "#"
-stackoverflow: "#"
-github: "#"
-researchgate: "#"
-orcid: "#"
-quora: "#"
-instagram: "#"
-facebook: "#"
-bluesky: "#"
+linkedin: "joel-logan-280a5a301/"
+stackoverflow: ""
+github: "JoelLogan"
+researchgate: ""
+orcid: ""
+quora: ""
+instagram: ""
+facebook: ""
+bluesky: ""
 
 # Markdown
 highlighter: rouge
@@ -47,12 +42,7 @@ collections:
     output: true
     permalink: /projects/:name/
     order:
-      - shortProject.md
-      - longerProjectTitle.md
-      - redirect.md
-      - project4.md
-      - project5.md
-      - project6.md
+      - InfinityGauntletMod.md
 
 sass:
   sass_dir: /assets/css/_sass
