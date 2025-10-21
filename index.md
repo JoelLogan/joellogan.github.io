@@ -17,6 +17,6 @@ I've been making Minecraft plugins and mods on request for a few years, and my w
 
 When I'm not coding or learning, I enjoy some simple DJing. I sometimes work with [Greenwood DJ](https://www.greenwooddj.com/) on some events.
 
-> <sup><sub>This website is a WIP and will be updated soon.</sup></sub>
+> <sub>This website is a WIP and will be updated soon.</sub>
 
 #### Thanks For Stopping By!
