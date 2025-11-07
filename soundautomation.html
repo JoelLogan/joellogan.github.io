@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+        <h1 class="post-headline">Joel Logan</h1>
+        <h3 class="post-description">BJU Student | FIRST Alum</h3>
+
+        <div class="links scroll">
+        <a href="/">Home</a>
+        <a href="/projects/">Projects</a>
+</div>
+
+
+        <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Joel Logan | BJU Student FIRST Alum</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Joel Logan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="BJU Student FIRST Alum" />
+<meta property="og:description" content="BJU Student FIRST Alum" />
+<link rel="canonical" href="https://joellogan.com/soundautomation" />
+<meta property="og:url" content="https://joellogan.com/soundautomation" />
+<meta property="og:site_name" content="Joel Logan" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Joel Logan" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"BJU Student FIRST Alum","headline":"Joel Logan","url":"https://joellogan.com/soundautomation"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+        <!-- insert favicons, used https://realfavicongenerator.net/ -->
+<link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="/assets/favicon/site.webmanifest" />
+
+
+        <!-- MathJax -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+     processEscapes: true
+    }
+  });
+</script>
+
+
+        <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
+        <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v6.7.2/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+
+    </head>
+
+    <body>
+        <main>
+            <article>
+                <h2 id="joels-sound-automation">Joel’s Sound Automation</h2>
+
+<p>Joel’s Sound Automation is a personal, automated script designed to process scheduling files within a specific Google Drive folder. It is not a public application and is intended only for the developer’s use.</p>
+
+<p>What It Does
+This script runs automatically to perform a 3-part “convert and clean” workflow:</p>
+
+<ol>
+  <li>
+    <p>Finds Excel Files: It monitors a specific Google Drive folder for any new schedules uploaded as .xls or .xlsx files.</p>
+  </li>
+  <li>
+    <p>Converts &amp; Cleans: For each Excel file, it:</p>
+
+    <ul>
+      <li>
+        <p>Creates a new Google Sheet file.</p>
+      </li>
+      <li>
+        <p>Opens the new Google Sheet and automatically deletes any rows that contain strikethrough text.</p>
+      </li>
+      <li>
+        <p>Moves the original Excel file to the trash.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Logs the Job: It appends a new row to a central “index” spreadsheet, logging the name and file ID of the new, clean Google Sheet for use in other automations.</p>
+  </li>
+</ol>
+
+<h3 id="why-this-script-needs-google-permissions">Why This Script Needs Google Permissions</h3>
+<p>This is a non-interactive, automated script, so it cannot ask for file-by-file permission using a file picker. To perform its job, it requires one-time authorization for the following:</p>
+
+<ul>
+  <li>
+    <p>Google Drive Access (…/auth/drive): This is required to read the original Excel files, create the new Google Sheet files, and move the original Excel files to the trash.</p>
+  </li>
+  <li>
+    <p>Google Sheets Access (…/auth/spreadsheets): This is required to write a log entry to the “index” sheet and to open, read formatting from, and delete rows in the newly created Google Sheets.</p>
+  </li>
+</ul>
+
+<p>This script only accesses files and data within the developer’s own account.</p>
+
+<h3 id="privacy">Privacy</h3>
+<p>Your privacy is important. This script does not store, share, or access any data outside of its core functions listed above.</p>
+
+<p><a href="https://joellogan.com/soundautomationprivacy">View the full Privacy Policy here</a></p>
+
+            </article>
+        </main>
+
+        <footer>
+          <p class="copy">
+            <small> © Joel Logan 2025
+                    | Powered by Jekyll and
+                    <a target="_blank" href="https://github.com/jitinnair1/gradfolio/" rel="noopener noreferrer">Gradfolio</a>.
+                    Last updated on 07 November 2025
+            </small>
+          </p>
+
+        <div class="rounded-social-buttons">
+<a title="" class="social-button email" itemprop="email" href="mailto:%6A%6F%65%6C@%6A%6F%65%6C%6C%6F%67%61%6E.%63%6F%6D" target="_blank">
+<i class="far fa-envelope"></i>
+</a><a title="" class="social-button linkedin" href="https://www.linkedin.com/in/joel-logan-280a5a301" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-linkedin"></i>
+</a><a title="" class="social-button github" href="https://www.github.com/JoelLogan" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-github"></i>
+</a>
+</div>
+
+
+        </footer>
+
+        <!-- Google Analytics Tracking code -->
+<script src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js" async></script>
+<script>
+var galite = galite || {};
+galite.UA = '';
+</script>
+
+    </body>
+
+</html>
